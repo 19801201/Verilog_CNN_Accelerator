@@ -32,7 +32,7 @@ module top(
     );
 
 wire clk_out_125;
-wire clk_out_150;
+wire clk_out_250;
 wire [0:0]tjpu_rst;
 wire c0_init_calib_complete;
 
@@ -117,7 +117,7 @@ wire Tlast,T_Last_Middle;
 
 wire Read_DDR_REG,Write_DDR_REG,Weight_Read_REG;
 TJPU TJPU(
-    .clk                 (clk_out_150),
+    .clk                 (clk_out_250),
     .rst                 (tjpu_rst),
     .Control_3_3         (tjpu_control_conv2d_0[3:0]),
     .State_3_3           (State_3_3),
@@ -170,7 +170,7 @@ assign T_Last_Middle         = Write_DDR_REG ? 1'b0 : Tlast;
 assign Conv_WRITE_DATA_tlast = Write_DDR_REG ? Tlast : 1'b0;
 
 Out_Buffer Out_Buffer(
-    .clk                (clk_out_150),
+    .clk                (clk_out_250),
     .rst                (tjpu_rst),
     .S_Data             (S_Data_Middle ),
     .S_Valid            (S_Valid_Middle),
@@ -182,7 +182,7 @@ Out_Buffer Out_Buffer(
 );
 
 In_Buffer In_Buffer(
-    .clk                (clk_out_150),
+    .clk                (clk_out_250),
     .rst                (tjpu_rst),
     .S_Data             (T_Data),
     .S_Valid            (T_Valid),
@@ -251,7 +251,7 @@ system_wrapper system_wrapper(
     .c0_init_calib_complete         (c0_init_calib_complete ),
     .sys_clk                        (sys_clk),
     .clk_out_125                    (clk_out_125),
-    .clk_out_150                    (clk_out_150),
+    .clk_out_250                    (clk_out_250),
     .ddr_sys_rst                    (1'b0),
     .tjpu_rst                       (tjpu_rst),
     .concat_read_introut            (concat_read_introut),
