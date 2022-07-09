@@ -23,146 +23,146 @@
 # 2. The following source(s) files that were local or imported into the original project.
 #    (Please see the '$orig_proj_dir' and '$origin_dir' variable setting below at the start of the script)
 #
-#    "D:/Desktop/1/sources_1/imports/Yolo_v4_regs_pkg.vhd"
-#    "D:/Desktop/1/sources_1/imports/Yolo_v4_regs.vhd"
-#    "D:/Desktop/1/sources_1/imports/dma_idle.v"
-#    "D:/Desktop/1/sources_1/imports/dma_read.v"
-#    "D:/Desktop/1/sources_1/imports/dma_read_ctrl.v"
-#    "D:/Desktop/1/sources_1/imports/dma_write.v"
-#    "D:/Desktop/1/sources_1/imports/dma_write_idle.v"
-#    "D:/Desktop/1/sources_1/imports/dma_write_ctrl.v"
-#    "D:/Desktop/1/sources_1/bd/system/system.bd"
-#    "D:/Desktop/1/sources_1/ip/Top_switch_end/Top_switch_end.xci"
-#    "D:/Desktop/1/sources_1/ip/end_reshape/end_reshape.xci"
-#    "D:/Desktop/1/sources_1/ip/upsampling_fifo_write/upsampling_fifo_write.xci"
-#    "D:/Desktop/1/sources_1/ip/mult_up/mult_up.xci"
-#    "D:/Desktop/1/sources_1/ip/upsampling_fifo_1/upsampling_fifo_1.xci"
-#    "D:/Desktop/1/sources_1/ip/upsampling_fifo_read/upsampling_fifo_read.xci"
-#    "D:/Desktop/1/sources_1/ip/mult_upsample/mult_upsample.xci"
-#    "D:/Desktop/1/sources_1/ip/max_polling_fifo_write/max_polling_fifo_write.xci"
-#    "D:/Desktop/1/sources_1/ip/Buffer_2/Buffer_2.xci"
-#    "D:/Desktop/1/sources_1/ip/Buffer_1/Buffer_1.xci"
-#    "D:/Desktop/1/sources_1/ip/route_fifo_write/route_fifo_write.xci"
-#    "D:/Desktop/1/sources_1/ip/route_fifo_read/route_fifo_read.xci"
-#    "D:/Desktop/1/sources_1/ip/concat_fifo/concat_fifo.xci"
-#    "D:/Desktop/1/sources_1/ip/mult_concat/mult_concat.xci"
-#    "D:/Desktop/1/sources_1/ip/concat_mult_32_u32/concat_mult_32_u32.xci"
-#    "D:/Desktop/1/sources_1/ip/add_32_u32_32/add_32_u32_32.xci"
-#    "D:/Desktop/1/sources_1/ip/concat_fifo_read_2/concat_fifo_read_2.xci"
-#    "D:/Desktop/1/sources_1/ip/concat_fifo_read_1/concat_fifo_read_1.xci"
-#    "D:/Desktop/1/sources_1/ip/top_reshape/top_reshape.xci"
-#    "D:/Desktop/1/sources_1/ip/stride_fifo/stride_fifo.xci"
-#    "D:/Desktop/1/sources_1/ip/zero_point_adder/zero_point_adder.xci"
-#    "D:/Desktop/1/sources_1/ip/sub_16_u8/sub_16_u8.xci"
-#    "D:/Desktop/1/sources_1/ip/add_16_u8_16/add_16_u8_16.xci"
-#    "D:/Desktop/1/sources_1/ip/mult_32_32/mult_32_32.xci"
-#    "D:/Desktop/1/sources_1/ip/add_32_32/add_32_32.xci"
-#    "D:/Desktop/1/sources_1/ip/fifo_1024_1024/fifo_1024_1024.xci"
-#    "D:/Desktop/1/sources_1/ip/count_mult/count_mult.xci"
-#    "D:/Desktop/1/sources_1/ip/Mult_26_8_34/Mult_26_8_34.xci"
-#    "D:/Desktop/1/sources_1/ip/mult_8_8_16/mult_8_8_16.xci"
-#    "D:/Desktop/1/sources_1/ip/Add_34_34/Add_34_34.xci"
-#    "D:/Desktop/1/sources_1/ip/add_16_16/add_16_16.xci"
-#    "D:/Desktop/1/sources_1/ip/block_fifo_256_1024/block_fifo_256_1024.xci"
-#    "D:/Desktop/1/sources_1/ip/COMPUTE_3_3_WEIGHT_INS/COMPUTE_3_3_WEIGHT_INS.xci"
-#    "D:/Desktop/1/sources_1/ip/bias_ram/bias_ram.xci"
-#    "D:/Desktop/1/sources_1/ip/count_conv2d/count_conv2d.xci"
-#    "D:/Desktop/1/sources_1/ip/data_convert_128/data_convert_128.xci"
-#    "D:/Desktop/1/sources_1/ip/data_convert_1_1/data_convert_1_1.xci"
-#    "D:/Desktop/1/sources_1/ip/fifo_four2three/fifo_four2three.xci"
-#    "D:/Desktop/1/sources_1/ip/FIFO_256_2048/FIFO_256_2048.xci"
-#    "D:/Desktop/1/sources_1/ip/PE_switch/PE_switch.xci"
-#    "D:/Desktop/1/sources_1/ip/Top_switch/Top_switch.xci"
-#    "D:/Desktop/1/sources_1/new/BIAS_FIFO.v"
-#    "D:/Desktop/1/sources_1/new/Para.v"
-#    "D:/Desktop/1/sources_1/new/Bias_ram.v"
-#    "D:/Desktop/1/sources_1/new/Cin_Convert.v"
-#    "D:/Desktop/1/sources_1/new/Cin_Converter_test.v"
-#    "D:/Desktop/1/sources_1/new/Compute_3_3.v"
-#    "D:/Desktop/1/sources_1/new/Concat_32to8.v"
-#    "D:/Desktop/1/sources_1/new/Concat_Scale.v"
-#    "D:/Desktop/1/sources_1/new/Concat_Scale_Judge.v"
-#    "D:/Desktop/1/sources_1/new/Concat_Zero.v"
-#    "D:/Desktop/1/sources_1/new/Configurable_FIFO.v"
-#    "D:/Desktop/1/sources_1/new/Configurable_RAM.v"
-#    "D:/Desktop/1/sources_1/new/Configurable_RAM_Norm.v"
-#    "D:/Desktop/1/sources_1/new/Conv_3_3.v"
-#    "D:/Desktop/1/sources_1/new/Conv_Bias.v"
-#    "D:/Desktop/1/sources_1/new/Conv_Norm.v"
-#    "D:/Desktop/1/sources_1/new/Conv_Scale.v"
-#    "D:/Desktop/1/sources_1/new/Conv_Zero.v"
-#    "D:/Desktop/1/sources_1/new/Conv_quan.v"
-#    "D:/Desktop/1/sources_1/new/Conv_quan_control.v"
-#    "D:/Desktop/1/sources_1/new/DMA_FIFO.v"
-#    "D:/Desktop/1/sources_1/new/Data_Convert.v"
-#    "D:/Desktop/1/sources_1/new/Data_Convert_FIFO.v"
-#    "D:/Desktop/1/sources_1/new/Data_Convert_FIFO_128.v"
-#    "D:/Desktop/1/sources_1/new/Data_Generate.v"
-#    "D:/Desktop/1/sources_1/new/FIFO_Concat.v"
-#    "D:/Desktop/1/sources_1/new/Four2three_FIFO.v"
-#    "D:/Desktop/1/sources_1/new/In_Buffer.v"
-#    "D:/Desktop/1/sources_1/new/Load_Weight_Bias.v"
-#    "D:/Desktop/1/sources_1/new/Out_Buffer.v"
-#    "D:/Desktop/1/sources_1/new/Padding_FIFO.v"
-#    "D:/Desktop/1/sources_1/new/Route_Read_FIFO.v"
-#    "D:/Desktop/1/sources_1/new/Route_Write_FIFO.v"
-#    "D:/Desktop/1/sources_1/new/Stride.v"
-#    "D:/Desktop/1/sources_1/new/TJPU.v"
-#    "D:/Desktop/1/sources_1/new/URAM_FIFO.v"
-#    "D:/Desktop/1/sources_1/new/Upsampling_Read_FIFO.v"
-#    "D:/Desktop/1/sources_1/new/Upsampling_Write_FIFO.v"
-#    "D:/Desktop/1/sources_1/new/accumulation.v"
-#    "D:/Desktop/1/sources_1/new/add_simd.v"
-#    "D:/Desktop/1/sources_1/new/channel_in_accumulation.v"
-#    "D:/Desktop/1/sources_1/new/channel_in_eight_times_acc.v"
-#    "D:/Desktop/1/sources_1/new/channel_in_four_times_acc.v"
-#    "D:/Desktop/1/sources_1/new/channel_in_one_times_acc.v"
-#    "D:/Desktop/1/sources_1/new/channel_in_sixteen_times_acc.v"
-#    "D:/Desktop/1/sources_1/new/channel_in_thirty_two_times_acc.v"
-#    "D:/Desktop/1/sources_1/new/channel_in_two_times_acc.v"
-#    "D:/Desktop/1/sources_1/new/compare_maxpool.v"
-#    "D:/Desktop/1/sources_1/new/compare_maxpool_1.v"
-#    "D:/Desktop/1/sources_1/new/compute_1_1_mult.v"
-#    "D:/Desktop/1/sources_1/new/compute_3_3_mult_add.v"
-#    "D:/Desktop/1/sources_1/new/compute_control.v"
-#    "D:/Desktop/1/sources_1/new/concat.v"
-#    "D:/Desktop/1/sources_1/new/concat_read_fifo_1.v"
-#    "D:/Desktop/1/sources_1/new/concat_read_fifo_2.v"
-#    "D:/Desktop/1/sources_1/new/connect_final.v"
-#    "D:/Desktop/1/sources_1/new/conv_2d.v"
-#    "D:/Desktop/1/sources_1/new/conv_state.v"
-#    "D:/Desktop/1/sources_1/new/four2three.v"
-#    "D:/Desktop/1/sources_1/new/leakyrelu.v"
-#    "D:/Desktop/1/sources_1/new/maxpool.v"
-#    "D:/Desktop/1/sources_1/new/maxpool_read_fifo.v"
-#    "D:/Desktop/1/sources_1/new/maxpool_write_fifo.v"
-#    "D:/Desktop/1/sources_1/new/mult_dou_26_8.v"
-#    "D:/Desktop/1/sources_1/new/mult_dou_8_8.v"
-#    "D:/Desktop/1/sources_1/new/mult_simd.v"
-#    "D:/Desktop/1/sources_1/new/padding.v"
-#    "D:/Desktop/1/sources_1/new/reshape.v"
-#    "D:/Desktop/1/sources_1/new/reshape_define.v"
-#    "D:/Desktop/1/sources_1/new/reshape_instruction.v"
-#    "D:/Desktop/1/sources_1/new/reshape_state.v"
-#    "D:/Desktop/1/sources_1/new/route.v"
-#    "D:/Desktop/1/sources_1/new/shift.v"
-#    "D:/Desktop/1/sources_1/new/subz3_leakyrelu_addz3.v"
-#    "D:/Desktop/1/sources_1/new/three2nine.v"
-#    "D:/Desktop/1/sources_1/new/top_control.v"
-#    "D:/Desktop/1/sources_1/new/upsampling.v"
-#    "D:/Desktop/1/sources_1/new/top.v"
-#    "D:/Desktop/1/sources_1/imports/Yolo_v4_regs.vho"
-#    "D:/Desktop/1/sources_1/ip/test_FIFO/test_FIFO.xci"
-#    "D:/Desktop/1/sources_1/ip/test_image/test_image.xci"
-#    "D:/Desktop/1/sources_1/ip/test_weight/test_weight.xci"
-#    "D:/Desktop/1/sources_1/sim/simulation_weight_feature_stream.v"
-#    "D:/Desktop/1/sources_1/sim/TJPU_TB.v"
-#    "D:/Desktop/1/sources_1/sim/TB_Split.v"
-#    "D:/Desktop/1/sources_1/sim/TB_Upsample.v"
-#    "D:/Desktop/1/sources_1/sim/TB_Maxpool.v"
-#    "D:/Desktop/1/sources_1/sim/simulation_concat.v"
-#    "D:/Desktop/1/sources_1/sim/TB_Reshape.v"
-#    "D:/Desktop/1/name.tcl"
+#    "$(current_path)/TJPU/sources_1/imports/Yolo_v4_regs_pkg.vhd"
+#    "$(current_path)/TJPU/sources_1/imports/Yolo_v4_regs.vhd"
+#    "$(current_path)/TJPU/sources_1/imports/dma_idle.v"
+#    "$(current_path)/TJPU/sources_1/imports/dma_read.v"
+#    "$(current_path)/TJPU/sources_1/imports/dma_read_ctrl.v"
+#    "$(current_path)/TJPU/sources_1/imports/dma_write.v"
+#    "$(current_path)/TJPU/sources_1/imports/dma_write_idle.v"
+#    "$(current_path)/TJPU/sources_1/imports/dma_write_ctrl.v"
+#    "$(current_path)/TJPU/sources_1/bd/system/system.bd"
+#    "$(current_path)/TJPU/sources_1/ip/Top_switch_end/Top_switch_end.xci"
+#    "$(current_path)/TJPU/sources_1/ip/end_reshape/end_reshape.xci"
+#    "$(current_path)/TJPU/sources_1/ip/upsampling_fifo_write/upsampling_fifo_write.xci"
+#    "$(current_path)/TJPU/sources_1/ip/mult_up/mult_up.xci"
+#    "$(current_path)/TJPU/sources_1/ip/upsampling_fifo_1/upsampling_fifo_1.xci"
+#    "$(current_path)/TJPU/sources_1/ip/upsampling_fifo_read/upsampling_fifo_read.xci"
+#    "$(current_path)/TJPU/sources_1/ip/mult_upsample/mult_upsample.xci"
+#    "$(current_path)/TJPU/sources_1/ip/max_polling_fifo_write/max_polling_fifo_write.xci"
+#    "$(current_path)/TJPU/sources_1/ip/Buffer_2/Buffer_2.xci"
+#    "$(current_path)/TJPU/sources_1/ip/Buffer_1/Buffer_1.xci"
+#    "$(current_path)/TJPU/sources_1/ip/route_fifo_write/route_fifo_write.xci"
+#    "$(current_path)/TJPU/sources_1/ip/route_fifo_read/route_fifo_read.xci"
+#    "$(current_path)/TJPU/sources_1/ip/concat_fifo/concat_fifo.xci"
+#    "$(current_path)/TJPU/sources_1/ip/mult_concat/mult_concat.xci"
+#    "$(current_path)/TJPU/sources_1/ip/concat_mult_32_u32/concat_mult_32_u32.xci"
+#    "$(current_path)/TJPU/sources_1/ip/add_32_u32_32/add_32_u32_32.xci"
+#    "$(current_path)/TJPU/sources_1/ip/concat_fifo_read_2/concat_fifo_read_2.xci"
+#    "$(current_path)/TJPU/sources_1/ip/concat_fifo_read_1/concat_fifo_read_1.xci"
+#    "$(current_path)/TJPU/sources_1/ip/top_reshape/top_reshape.xci"
+#    "$(current_path)/TJPU/sources_1/ip/stride_fifo/stride_fifo.xci"
+#    "$(current_path)/TJPU/sources_1/ip/zero_point_adder/zero_point_adder.xci"
+#    "$(current_path)/TJPU/sources_1/ip/sub_16_u8/sub_16_u8.xci"
+#    "$(current_path)/TJPU/sources_1/ip/add_16_u8_16/add_16_u8_16.xci"
+#    "$(current_path)/TJPU/sources_1/ip/mult_32_32/mult_32_32.xci"
+#    "$(current_path)/TJPU/sources_1/ip/add_32_32/add_32_32.xci"
+#    "$(current_path)/TJPU/sources_1/ip/fifo_1024_1024/fifo_1024_1024.xci"
+#    "$(current_path)/TJPU/sources_1/ip/count_mult/count_mult.xci"
+#    "$(current_path)/TJPU/sources_1/ip/Mult_26_8_34/Mult_26_8_34.xci"
+#    "$(current_path)/TJPU/sources_1/ip/mult_8_8_16/mult_8_8_16.xci"
+#    "$(current_path)/TJPU/sources_1/ip/Add_34_34/Add_34_34.xci"
+#    "$(current_path)/TJPU/sources_1/ip/add_16_16/add_16_16.xci"
+#    "$(current_path)/TJPU/sources_1/ip/block_fifo_256_1024/block_fifo_256_1024.xci"
+#    "$(current_path)/TJPU/sources_1/ip/COMPUTE_3_3_WEIGHT_INS/COMPUTE_3_3_WEIGHT_INS.xci"
+#    "$(current_path)/TJPU/sources_1/ip/bias_ram/bias_ram.xci"
+#    "$(current_path)/TJPU/sources_1/ip/count_conv2d/count_conv2d.xci"
+#    "$(current_path)/TJPU/sources_1/ip/data_convert_128/data_convert_128.xci"
+#    "$(current_path)/TJPU/sources_1/ip/data_convert_1_1/data_convert_1_1.xci"
+#    "$(current_path)/TJPU/sources_1/ip/fifo_four2three/fifo_four2three.xci"
+#    "$(current_path)/TJPU/sources_1/ip/FIFO_256_2048/FIFO_256_2048.xci"
+#    "$(current_path)/TJPU/sources_1/ip/PE_switch/PE_switch.xci"
+#    "$(current_path)/TJPU/sources_1/ip/Top_switch/Top_switch.xci"
+#    "$(current_path)/TJPU/sources_1/new/BIAS_FIFO.v"
+#    "$(current_path)/TJPU/sources_1/new/Para.v"
+#    "$(current_path)/TJPU/sources_1/new/Bias_ram.v"
+#    "$(current_path)/TJPU/sources_1/new/Cin_Convert.v"
+#    "$(current_path)/TJPU/sources_1/new/Cin_Converter_test.v"
+#    "$(current_path)/TJPU/sources_1/new/Compute_3_3.v"
+#    "$(current_path)/TJPU/sources_1/new/Concat_32to8.v"
+#    "$(current_path)/TJPU/sources_1/new/Concat_Scale.v"
+#    "$(current_path)/TJPU/sources_1/new/Concat_Scale_Judge.v"
+#    "$(current_path)/TJPU/sources_1/new/Concat_Zero.v"
+#    "$(current_path)/TJPU/sources_1/new/Configurable_FIFO.v"
+#    "$(current_path)/TJPU/sources_1/new/Configurable_RAM.v"
+#    "$(current_path)/TJPU/sources_1/new/Configurable_RAM_Norm.v"
+#    "$(current_path)/TJPU/sources_1/new/Conv_3_3.v"
+#    "$(current_path)/TJPU/sources_1/new/Conv_Bias.v"
+#    "$(current_path)/TJPU/sources_1/new/Conv_Norm.v"
+#    "$(current_path)/TJPU/sources_1/new/Conv_Scale.v"
+#    "$(current_path)/TJPU/sources_1/new/Conv_Zero.v"
+#    "$(current_path)/TJPU/sources_1/new/Conv_quan.v"
+#    "$(current_path)/TJPU/sources_1/new/Conv_quan_control.v"
+#    "$(current_path)/TJPU/sources_1/new/DMA_FIFO.v"
+#    "$(current_path)/TJPU/sources_1/new/Data_Convert.v"
+#    "$(current_path)/TJPU/sources_1/new/Data_Convert_FIFO.v"
+#    "$(current_path)/TJPU/sources_1/new/Data_Convert_FIFO_128.v"
+#    "$(current_path)/TJPU/sources_1/new/Data_Generate.v"
+#    "$(current_path)/TJPU/sources_1/new/FIFO_Concat.v"
+#    "$(current_path)/TJPU/sources_1/new/Four2three_FIFO.v"
+#    "$(current_path)/TJPU/sources_1/new/In_Buffer.v"
+#    "$(current_path)/TJPU/sources_1/new/Load_Weight_Bias.v"
+#    "$(current_path)/TJPU/sources_1/new/Out_Buffer.v"
+#    "$(current_path)/TJPU/sources_1/new/Padding_FIFO.v"
+#    "$(current_path)/TJPU/sources_1/new/Route_Read_FIFO.v"
+#    "$(current_path)/TJPU/sources_1/new/Route_Write_FIFO.v"
+#    "$(current_path)/TJPU/sources_1/new/Stride.v"
+#    "$(current_path)/TJPU/sources_1/new/TJPU.v"
+#    "$(current_path)/TJPU/sources_1/new/URAM_FIFO.v"
+#    "$(current_path)/TJPU/sources_1/new/Upsampling_Read_FIFO.v"
+#    "$(current_path)/TJPU/sources_1/new/Upsampling_Write_FIFO.v"
+#    "$(current_path)/TJPU/sources_1/new/accumulation.v"
+#    "$(current_path)/TJPU/sources_1/new/add_simd.v"
+#    "$(current_path)/TJPU/sources_1/new/channel_in_accumulation.v"
+#    "$(current_path)/TJPU/sources_1/new/channel_in_eight_times_acc.v"
+#    "$(current_path)/TJPU/sources_1/new/channel_in_four_times_acc.v"
+#    "$(current_path)/TJPU/sources_1/new/channel_in_one_times_acc.v"
+#    "$(current_path)/TJPU/sources_1/new/channel_in_sixteen_times_acc.v"
+#    "$(current_path)/TJPU/sources_1/new/channel_in_thirty_two_times_acc.v"
+#    "$(current_path)/TJPU/sources_1/new/channel_in_two_times_acc.v"
+#    "$(current_path)/TJPU/sources_1/new/compare_maxpool.v"
+#    "$(current_path)/TJPU/sources_1/new/compare_maxpool_1.v"
+#    "$(current_path)/TJPU/sources_1/new/compute_1_1_mult.v"
+#    "$(current_path)/TJPU/sources_1/new/compute_3_3_mult_add.v"
+#    "$(current_path)/TJPU/sources_1/new/compute_control.v"
+#    "$(current_path)/TJPU/sources_1/new/concat.v"
+#    "$(current_path)/TJPU/sources_1/new/concat_read_fifo_1.v"
+#    "$(current_path)/TJPU/sources_1/new/concat_read_fifo_2.v"
+#    "$(current_path)/TJPU/sources_1/new/connect_final.v"
+#    "$(current_path)/TJPU/sources_1/new/conv_2d.v"
+#    "$(current_path)/TJPU/sources_1/new/conv_state.v"
+#    "$(current_path)/TJPU/sources_1/new/four2three.v"
+#    "$(current_path)/TJPU/sources_1/new/leakyrelu.v"
+#    "$(current_path)/TJPU/sources_1/new/maxpool.v"
+#    "$(current_path)/TJPU/sources_1/new/maxpool_read_fifo.v"
+#    "$(current_path)/TJPU/sources_1/new/maxpool_write_fifo.v"
+#    "$(current_path)/TJPU/sources_1/new/mult_dou_26_8.v"
+#    "$(current_path)/TJPU/sources_1/new/mult_dou_8_8.v"
+#    "$(current_path)/TJPU/sources_1/new/mult_simd.v"
+#    "$(current_path)/TJPU/sources_1/new/padding.v"
+#    "$(current_path)/TJPU/sources_1/new/reshape.v"
+#    "$(current_path)/TJPU/sources_1/new/reshape_define.v"
+#    "$(current_path)/TJPU/sources_1/new/reshape_instruction.v"
+#    "$(current_path)/TJPU/sources_1/new/reshape_state.v"
+#    "$(current_path)/TJPU/sources_1/new/route.v"
+#    "$(current_path)/TJPU/sources_1/new/shift.v"
+#    "$(current_path)/TJPU/sources_1/new/subz3_leakyrelu_addz3.v"
+#    "$(current_path)/TJPU/sources_1/new/three2nine.v"
+#    "$(current_path)/TJPU/sources_1/new/top_control.v"
+#    "$(current_path)/TJPU/sources_1/new/upsampling.v"
+#    "$(current_path)/TJPU/sources_1/new/top.v"
+#    "$(current_path)/TJPU/sources_1/imports/Yolo_v4_regs.vho"
+#    "$(current_path)/TJPU/sources_1/ip/test_FIFO/test_FIFO.xci"
+#    "$(current_path)/TJPU/sources_1/ip/test_image/test_image.xci"
+#    "$(current_path)/TJPU/sources_1/ip/test_weight/test_weight.xci"
+#    "$(current_path)/TJPU/sources_1/sim/simulation_weight_feature_stream.v"
+#    "$(current_path)/TJPU/sources_1/sim/TJPU_TB.v"
+#    "$(current_path)/TJPU/sources_1/sim/TB_Split.v"
+#    "$(current_path)/TJPU/sources_1/sim/TB_Upsample.v"
+#    "$(current_path)/TJPU/sources_1/sim/TB_Maxpool.v"
+#    "$(current_path)/TJPU/sources_1/sim/simulation_concat.v"
+#    "$(current_path)/TJPU/sources_1/sim/TB_Reshape.v"
+#    "$(current_path)/TJPU/name.tcl"
 #
 # 3. The following remote source files that were added to the original project:-
 #
@@ -174,146 +174,146 @@
 proc checkRequiredFiles { origin_dir} {
   set status true
   set files [list \
-   "D:/Desktop/1/sources_1/imports/Yolo_v4_regs_pkg.vhd" \
-   "D:/Desktop/1/sources_1/imports/Yolo_v4_regs.vhd" \
-   "D:/Desktop/1/sources_1/imports/dma_idle.v" \
-   "D:/Desktop/1/sources_1/imports/dma_read.v" \
-   "D:/Desktop/1/sources_1/imports/dma_read_ctrl.v" \
-   "D:/Desktop/1/sources_1/imports/dma_write.v" \
-   "D:/Desktop/1/sources_1/imports/dma_write_idle.v" \
-   "D:/Desktop/1/sources_1/imports/dma_write_ctrl.v" \
-   "D:/Desktop/1/sources_1/bd/system/system.bd" \
-   "D:/Desktop/1/sources_1/ip/Top_switch_end/Top_switch_end.xci" \
-   "D:/Desktop/1/sources_1/ip/end_reshape/end_reshape.xci" \
-   "D:/Desktop/1/sources_1/ip/upsampling_fifo_write/upsampling_fifo_write.xci" \
-   "D:/Desktop/1/sources_1/ip/mult_up/mult_up.xci" \
-   "D:/Desktop/1/sources_1/ip/upsampling_fifo_1/upsampling_fifo_1.xci" \
-   "D:/Desktop/1/sources_1/ip/upsampling_fifo_read/upsampling_fifo_read.xci" \
-   "D:/Desktop/1/sources_1/ip/mult_upsample/mult_upsample.xci" \
-   "D:/Desktop/1/sources_1/ip/max_polling_fifo_write/max_polling_fifo_write.xci" \
-   "D:/Desktop/1/sources_1/ip/Buffer_2/Buffer_2.xci" \
-   "D:/Desktop/1/sources_1/ip/Buffer_1/Buffer_1.xci" \
-   "D:/Desktop/1/sources_1/ip/route_fifo_write/route_fifo_write.xci" \
-   "D:/Desktop/1/sources_1/ip/route_fifo_read/route_fifo_read.xci" \
-   "D:/Desktop/1/sources_1/ip/concat_fifo/concat_fifo.xci" \
-   "D:/Desktop/1/sources_1/ip/mult_concat/mult_concat.xci" \
-   "D:/Desktop/1/sources_1/ip/concat_mult_32_u32/concat_mult_32_u32.xci" \
-   "D:/Desktop/1/sources_1/ip/add_32_u32_32/add_32_u32_32.xci" \
-   "D:/Desktop/1/sources_1/ip/concat_fifo_read_2/concat_fifo_read_2.xci" \
-   "D:/Desktop/1/sources_1/ip/concat_fifo_read_1/concat_fifo_read_1.xci" \
-   "D:/Desktop/1/sources_1/ip/top_reshape/top_reshape.xci" \
-   "D:/Desktop/1/sources_1/ip/stride_fifo/stride_fifo.xci" \
-   "D:/Desktop/1/sources_1/ip/zero_point_adder/zero_point_adder.xci" \
-   "D:/Desktop/1/sources_1/ip/sub_16_u8/sub_16_u8.xci" \
-   "D:/Desktop/1/sources_1/ip/add_16_u8_16/add_16_u8_16.xci" \
-   "D:/Desktop/1/sources_1/ip/mult_32_32/mult_32_32.xci" \
-   "D:/Desktop/1/sources_1/ip/add_32_32/add_32_32.xci" \
-   "D:/Desktop/1/sources_1/ip/fifo_1024_1024/fifo_1024_1024.xci" \
-   "D:/Desktop/1/sources_1/ip/count_mult/count_mult.xci" \
-   "D:/Desktop/1/sources_1/ip/Mult_26_8_34/Mult_26_8_34.xci" \
-   "D:/Desktop/1/sources_1/ip/mult_8_8_16/mult_8_8_16.xci" \
-   "D:/Desktop/1/sources_1/ip/Add_34_34/Add_34_34.xci" \
-   "D:/Desktop/1/sources_1/ip/add_16_16/add_16_16.xci" \
-   "D:/Desktop/1/sources_1/ip/block_fifo_256_1024/block_fifo_256_1024.xci" \
-   "D:/Desktop/1/sources_1/ip/COMPUTE_3_3_WEIGHT_INS/COMPUTE_3_3_WEIGHT_INS.xci" \
-   "D:/Desktop/1/sources_1/ip/bias_ram/bias_ram.xci" \
-   "D:/Desktop/1/sources_1/ip/count_conv2d/count_conv2d.xci" \
-   "D:/Desktop/1/sources_1/ip/data_convert_128/data_convert_128.xci" \
-   "D:/Desktop/1/sources_1/ip/data_convert_1_1/data_convert_1_1.xci" \
-   "D:/Desktop/1/sources_1/ip/fifo_four2three/fifo_four2three.xci" \
-   "D:/Desktop/1/sources_1/ip/FIFO_256_2048/FIFO_256_2048.xci" \
-   "D:/Desktop/1/sources_1/ip/PE_switch/PE_switch.xci" \
-   "D:/Desktop/1/sources_1/ip/Top_switch/Top_switch.xci" \
-   "D:/Desktop/1/sources_1/new/BIAS_FIFO.v" \
-   "D:/Desktop/1/sources_1/new/Para.v" \
-   "D:/Desktop/1/sources_1/new/Bias_ram.v" \
-   "D:/Desktop/1/sources_1/new/Cin_Convert.v" \
-   "D:/Desktop/1/sources_1/new/Cin_Converter_test.v" \
-   "D:/Desktop/1/sources_1/new/Compute_3_3.v" \
-   "D:/Desktop/1/sources_1/new/Concat_32to8.v" \
-   "D:/Desktop/1/sources_1/new/Concat_Scale.v" \
-   "D:/Desktop/1/sources_1/new/Concat_Scale_Judge.v" \
-   "D:/Desktop/1/sources_1/new/Concat_Zero.v" \
-   "D:/Desktop/1/sources_1/new/Configurable_FIFO.v" \
-   "D:/Desktop/1/sources_1/new/Configurable_RAM.v" \
-   "D:/Desktop/1/sources_1/new/Configurable_RAM_Norm.v" \
-   "D:/Desktop/1/sources_1/new/Conv_3_3.v" \
-   "D:/Desktop/1/sources_1/new/Conv_Bias.v" \
-   "D:/Desktop/1/sources_1/new/Conv_Norm.v" \
-   "D:/Desktop/1/sources_1/new/Conv_Scale.v" \
-   "D:/Desktop/1/sources_1/new/Conv_Zero.v" \
-   "D:/Desktop/1/sources_1/new/Conv_quan.v" \
-   "D:/Desktop/1/sources_1/new/Conv_quan_control.v" \
-   "D:/Desktop/1/sources_1/new/DMA_FIFO.v" \
-   "D:/Desktop/1/sources_1/new/Data_Convert.v" \
-   "D:/Desktop/1/sources_1/new/Data_Convert_FIFO.v" \
-   "D:/Desktop/1/sources_1/new/Data_Convert_FIFO_128.v" \
-   "D:/Desktop/1/sources_1/new/Data_Generate.v" \
-   "D:/Desktop/1/sources_1/new/FIFO_Concat.v" \
-   "D:/Desktop/1/sources_1/new/Four2three_FIFO.v" \
-   "D:/Desktop/1/sources_1/new/In_Buffer.v" \
-   "D:/Desktop/1/sources_1/new/Load_Weight_Bias.v" \
-   "D:/Desktop/1/sources_1/new/Out_Buffer.v" \
-   "D:/Desktop/1/sources_1/new/Padding_FIFO.v" \
-   "D:/Desktop/1/sources_1/new/Route_Read_FIFO.v" \
-   "D:/Desktop/1/sources_1/new/Route_Write_FIFO.v" \
-   "D:/Desktop/1/sources_1/new/Stride.v" \
-   "D:/Desktop/1/sources_1/new/TJPU.v" \
-   "D:/Desktop/1/sources_1/new/URAM_FIFO.v" \
-   "D:/Desktop/1/sources_1/new/Upsampling_Read_FIFO.v" \
-   "D:/Desktop/1/sources_1/new/Upsampling_Write_FIFO.v" \
-   "D:/Desktop/1/sources_1/new/accumulation.v" \
-   "D:/Desktop/1/sources_1/new/add_simd.v" \
-   "D:/Desktop/1/sources_1/new/channel_in_accumulation.v" \
-   "D:/Desktop/1/sources_1/new/channel_in_eight_times_acc.v" \
-   "D:/Desktop/1/sources_1/new/channel_in_four_times_acc.v" \
-   "D:/Desktop/1/sources_1/new/channel_in_one_times_acc.v" \
-   "D:/Desktop/1/sources_1/new/channel_in_sixteen_times_acc.v" \
-   "D:/Desktop/1/sources_1/new/channel_in_thirty_two_times_acc.v" \
-   "D:/Desktop/1/sources_1/new/channel_in_two_times_acc.v" \
-   "D:/Desktop/1/sources_1/new/compare_maxpool.v" \
-   "D:/Desktop/1/sources_1/new/compare_maxpool_1.v" \
-   "D:/Desktop/1/sources_1/new/compute_1_1_mult.v" \
-   "D:/Desktop/1/sources_1/new/compute_3_3_mult_add.v" \
-   "D:/Desktop/1/sources_1/new/compute_control.v" \
-   "D:/Desktop/1/sources_1/new/concat.v" \
-   "D:/Desktop/1/sources_1/new/concat_read_fifo_1.v" \
-   "D:/Desktop/1/sources_1/new/concat_read_fifo_2.v" \
-   "D:/Desktop/1/sources_1/new/connect_final.v" \
-   "D:/Desktop/1/sources_1/new/conv_2d.v" \
-   "D:/Desktop/1/sources_1/new/conv_state.v" \
-   "D:/Desktop/1/sources_1/new/four2three.v" \
-   "D:/Desktop/1/sources_1/new/leakyrelu.v" \
-   "D:/Desktop/1/sources_1/new/maxpool.v" \
-   "D:/Desktop/1/sources_1/new/maxpool_read_fifo.v" \
-   "D:/Desktop/1/sources_1/new/maxpool_write_fifo.v" \
-   "D:/Desktop/1/sources_1/new/mult_dou_26_8.v" \
-   "D:/Desktop/1/sources_1/new/mult_dou_8_8.v" \
-   "D:/Desktop/1/sources_1/new/mult_simd.v" \
-   "D:/Desktop/1/sources_1/new/padding.v" \
-   "D:/Desktop/1/sources_1/new/reshape.v" \
-   "D:/Desktop/1/sources_1/new/reshape_define.v" \
-   "D:/Desktop/1/sources_1/new/reshape_instruction.v" \
-   "D:/Desktop/1/sources_1/new/reshape_state.v" \
-   "D:/Desktop/1/sources_1/new/route.v" \
-   "D:/Desktop/1/sources_1/new/shift.v" \
-   "D:/Desktop/1/sources_1/new/subz3_leakyrelu_addz3.v" \
-   "D:/Desktop/1/sources_1/new/three2nine.v" \
-   "D:/Desktop/1/sources_1/new/top_control.v" \
-   "D:/Desktop/1/sources_1/new/upsampling.v" \
-   "D:/Desktop/1/sources_1/new/top.v" \
-   "D:/Desktop/1/sources_1/imports/Yolo_v4_regs.vho" \
-   "D:/Desktop/1/sources_1/ip/test_FIFO/test_FIFO.xci" \
-   "D:/Desktop/1/sources_1/ip/test_image/test_image.xci" \
-   "D:/Desktop/1/sources_1/ip/test_weight/test_weight.xci" \
-   "D:/Desktop/1/sources_1/sim/simulation_weight_feature_stream.v" \
-   "D:/Desktop/1/sources_1/sim/TJPU_TB.v" \
-   "D:/Desktop/1/sources_1/sim/TB_Split.v" \
-   "D:/Desktop/1/sources_1/sim/TB_Upsample.v" \
-   "D:/Desktop/1/sources_1/sim/TB_Maxpool.v" \
-   "D:/Desktop/1/sources_1/sim/simulation_concat.v" \
-   "D:/Desktop/1/sources_1/sim/TB_Reshape.v" \
-   "D:/Desktop/1/name.tcl" \
+   "$(current_path)/TJPU/sources_1/imports/Yolo_v4_regs_pkg.vhd" \
+   "$(current_path)/TJPU/sources_1/imports/Yolo_v4_regs.vhd" \
+   "$(current_path)/TJPU/sources_1/imports/dma_idle.v" \
+   "$(current_path)/TJPU/sources_1/imports/dma_read.v" \
+   "$(current_path)/TJPU/sources_1/imports/dma_read_ctrl.v" \
+   "$(current_path)/TJPU/sources_1/imports/dma_write.v" \
+   "$(current_path)/TJPU/sources_1/imports/dma_write_idle.v" \
+   "$(current_path)/TJPU/sources_1/imports/dma_write_ctrl.v" \
+   "$(current_path)/TJPU/sources_1/bd/system/system.bd" \
+   "$(current_path)/TJPU/sources_1/ip/Top_switch_end/Top_switch_end.xci" \
+   "$(current_path)/TJPU/sources_1/ip/end_reshape/end_reshape.xci" \
+   "$(current_path)/TJPU/sources_1/ip/upsampling_fifo_write/upsampling_fifo_write.xci" \
+   "$(current_path)/TJPU/sources_1/ip/mult_up/mult_up.xci" \
+   "$(current_path)/TJPU/sources_1/ip/upsampling_fifo_1/upsampling_fifo_1.xci" \
+   "$(current_path)/TJPU/sources_1/ip/upsampling_fifo_read/upsampling_fifo_read.xci" \
+   "$(current_path)/TJPU/sources_1/ip/mult_upsample/mult_upsample.xci" \
+   "$(current_path)/TJPU/sources_1/ip/max_polling_fifo_write/max_polling_fifo_write.xci" \
+   "$(current_path)/TJPU/sources_1/ip/Buffer_2/Buffer_2.xci" \
+   "$(current_path)/TJPU/sources_1/ip/Buffer_1/Buffer_1.xci" \
+   "$(current_path)/TJPU/sources_1/ip/route_fifo_write/route_fifo_write.xci" \
+   "$(current_path)/TJPU/sources_1/ip/route_fifo_read/route_fifo_read.xci" \
+   "$(current_path)/TJPU/sources_1/ip/concat_fifo/concat_fifo.xci" \
+   "$(current_path)/TJPU/sources_1/ip/mult_concat/mult_concat.xci" \
+   "$(current_path)/TJPU/sources_1/ip/concat_mult_32_u32/concat_mult_32_u32.xci" \
+   "$(current_path)/TJPU/sources_1/ip/add_32_u32_32/add_32_u32_32.xci" \
+   "$(current_path)/TJPU/sources_1/ip/concat_fifo_read_2/concat_fifo_read_2.xci" \
+   "$(current_path)/TJPU/sources_1/ip/concat_fifo_read_1/concat_fifo_read_1.xci" \
+   "$(current_path)/TJPU/sources_1/ip/top_reshape/top_reshape.xci" \
+   "$(current_path)/TJPU/sources_1/ip/stride_fifo/stride_fifo.xci" \
+   "$(current_path)/TJPU/sources_1/ip/zero_point_adder/zero_point_adder.xci" \
+   "$(current_path)/TJPU/sources_1/ip/sub_16_u8/sub_16_u8.xci" \
+   "$(current_path)/TJPU/sources_1/ip/add_16_u8_16/add_16_u8_16.xci" \
+   "$(current_path)/TJPU/sources_1/ip/mult_32_32/mult_32_32.xci" \
+   "$(current_path)/TJPU/sources_1/ip/add_32_32/add_32_32.xci" \
+   "$(current_path)/TJPU/sources_1/ip/fifo_1024_1024/fifo_1024_1024.xci" \
+   "$(current_path)/TJPU/sources_1/ip/count_mult/count_mult.xci" \
+   "$(current_path)/TJPU/sources_1/ip/Mult_26_8_34/Mult_26_8_34.xci" \
+   "$(current_path)/TJPU/sources_1/ip/mult_8_8_16/mult_8_8_16.xci" \
+   "$(current_path)/TJPU/sources_1/ip/Add_34_34/Add_34_34.xci" \
+   "$(current_path)/TJPU/sources_1/ip/add_16_16/add_16_16.xci" \
+   "$(current_path)/TJPU/sources_1/ip/block_fifo_256_1024/block_fifo_256_1024.xci" \
+   "$(current_path)/TJPU/sources_1/ip/COMPUTE_3_3_WEIGHT_INS/COMPUTE_3_3_WEIGHT_INS.xci" \
+   "$(current_path)/TJPU/sources_1/ip/bias_ram/bias_ram.xci" \
+   "$(current_path)/TJPU/sources_1/ip/count_conv2d/count_conv2d.xci" \
+   "$(current_path)/TJPU/sources_1/ip/data_convert_128/data_convert_128.xci" \
+   "$(current_path)/TJPU/sources_1/ip/data_convert_1_1/data_convert_1_1.xci" \
+   "$(current_path)/TJPU/sources_1/ip/fifo_four2three/fifo_four2three.xci" \
+   "$(current_path)/TJPU/sources_1/ip/FIFO_256_2048/FIFO_256_2048.xci" \
+   "$(current_path)/TJPU/sources_1/ip/PE_switch/PE_switch.xci" \
+   "$(current_path)/TJPU/sources_1/ip/Top_switch/Top_switch.xci" \
+   "$(current_path)/TJPU/sources_1/new/BIAS_FIFO.v" \
+   "$(current_path)/TJPU/sources_1/new/Para.v" \
+   "$(current_path)/TJPU/sources_1/new/Bias_ram.v" \
+   "$(current_path)/TJPU/sources_1/new/Cin_Convert.v" \
+   "$(current_path)/TJPU/sources_1/new/Cin_Converter_test.v" \
+   "$(current_path)/TJPU/sources_1/new/Compute_3_3.v" \
+   "$(current_path)/TJPU/sources_1/new/Concat_32to8.v" \
+   "$(current_path)/TJPU/sources_1/new/Concat_Scale.v" \
+   "$(current_path)/TJPU/sources_1/new/Concat_Scale_Judge.v" \
+   "$(current_path)/TJPU/sources_1/new/Concat_Zero.v" \
+   "$(current_path)/TJPU/sources_1/new/Configurable_FIFO.v" \
+   "$(current_path)/TJPU/sources_1/new/Configurable_RAM.v" \
+   "$(current_path)/TJPU/sources_1/new/Configurable_RAM_Norm.v" \
+   "$(current_path)/TJPU/sources_1/new/Conv_3_3.v" \
+   "$(current_path)/TJPU/sources_1/new/Conv_Bias.v" \
+   "$(current_path)/TJPU/sources_1/new/Conv_Norm.v" \
+   "$(current_path)/TJPU/sources_1/new/Conv_Scale.v" \
+   "$(current_path)/TJPU/sources_1/new/Conv_Zero.v" \
+   "$(current_path)/TJPU/sources_1/new/Conv_quan.v" \
+   "$(current_path)/TJPU/sources_1/new/Conv_quan_control.v" \
+   "$(current_path)/TJPU/sources_1/new/DMA_FIFO.v" \
+   "$(current_path)/TJPU/sources_1/new/Data_Convert.v" \
+   "$(current_path)/TJPU/sources_1/new/Data_Convert_FIFO.v" \
+   "$(current_path)/TJPU/sources_1/new/Data_Convert_FIFO_128.v" \
+   "$(current_path)/TJPU/sources_1/new/Data_Generate.v" \
+   "$(current_path)/TJPU/sources_1/new/FIFO_Concat.v" \
+   "$(current_path)/TJPU/sources_1/new/Four2three_FIFO.v" \
+   "$(current_path)/TJPU/sources_1/new/In_Buffer.v" \
+   "$(current_path)/TJPU/sources_1/new/Load_Weight_Bias.v" \
+   "$(current_path)/TJPU/sources_1/new/Out_Buffer.v" \
+   "$(current_path)/TJPU/sources_1/new/Padding_FIFO.v" \
+   "$(current_path)/TJPU/sources_1/new/Route_Read_FIFO.v" \
+   "$(current_path)/TJPU/sources_1/new/Route_Write_FIFO.v" \
+   "$(current_path)/TJPU/sources_1/new/Stride.v" \
+   "$(current_path)/TJPU/sources_1/new/TJPU.v" \
+   "$(current_path)/TJPU/sources_1/new/URAM_FIFO.v" \
+   "$(current_path)/TJPU/sources_1/new/Upsampling_Read_FIFO.v" \
+   "$(current_path)/TJPU/sources_1/new/Upsampling_Write_FIFO.v" \
+   "$(current_path)/TJPU/sources_1/new/accumulation.v" \
+   "$(current_path)/TJPU/sources_1/new/add_simd.v" \
+   "$(current_path)/TJPU/sources_1/new/channel_in_accumulation.v" \
+   "$(current_path)/TJPU/sources_1/new/channel_in_eight_times_acc.v" \
+   "$(current_path)/TJPU/sources_1/new/channel_in_four_times_acc.v" \
+   "$(current_path)/TJPU/sources_1/new/channel_in_one_times_acc.v" \
+   "$(current_path)/TJPU/sources_1/new/channel_in_sixteen_times_acc.v" \
+   "$(current_path)/TJPU/sources_1/new/channel_in_thirty_two_times_acc.v" \
+   "$(current_path)/TJPU/sources_1/new/channel_in_two_times_acc.v" \
+   "$(current_path)/TJPU/sources_1/new/compare_maxpool.v" \
+   "$(current_path)/TJPU/sources_1/new/compare_maxpool_1.v" \
+   "$(current_path)/TJPU/sources_1/new/compute_1_1_mult.v" \
+   "$(current_path)/TJPU/sources_1/new/compute_3_3_mult_add.v" \
+   "$(current_path)/TJPU/sources_1/new/compute_control.v" \
+   "$(current_path)/TJPU/sources_1/new/concat.v" \
+   "$(current_path)/TJPU/sources_1/new/concat_read_fifo_1.v" \
+   "$(current_path)/TJPU/sources_1/new/concat_read_fifo_2.v" \
+   "$(current_path)/TJPU/sources_1/new/connect_final.v" \
+   "$(current_path)/TJPU/sources_1/new/conv_2d.v" \
+   "$(current_path)/TJPU/sources_1/new/conv_state.v" \
+   "$(current_path)/TJPU/sources_1/new/four2three.v" \
+   "$(current_path)/TJPU/sources_1/new/leakyrelu.v" \
+   "$(current_path)/TJPU/sources_1/new/maxpool.v" \
+   "$(current_path)/TJPU/sources_1/new/maxpool_read_fifo.v" \
+   "$(current_path)/TJPU/sources_1/new/maxpool_write_fifo.v" \
+   "$(current_path)/TJPU/sources_1/new/mult_dou_26_8.v" \
+   "$(current_path)/TJPU/sources_1/new/mult_dou_8_8.v" \
+   "$(current_path)/TJPU/sources_1/new/mult_simd.v" \
+   "$(current_path)/TJPU/sources_1/new/padding.v" \
+   "$(current_path)/TJPU/sources_1/new/reshape.v" \
+   "$(current_path)/TJPU/sources_1/new/reshape_define.v" \
+   "$(current_path)/TJPU/sources_1/new/reshape_instruction.v" \
+   "$(current_path)/TJPU/sources_1/new/reshape_state.v" \
+   "$(current_path)/TJPU/sources_1/new/route.v" \
+   "$(current_path)/TJPU/sources_1/new/shift.v" \
+   "$(current_path)/TJPU/sources_1/new/subz3_leakyrelu_addz3.v" \
+   "$(current_path)/TJPU/sources_1/new/three2nine.v" \
+   "$(current_path)/TJPU/sources_1/new/top_control.v" \
+   "$(current_path)/TJPU/sources_1/new/upsampling.v" \
+   "$(current_path)/TJPU/sources_1/new/top.v" \
+   "$(current_path)/TJPU/sources_1/imports/Yolo_v4_regs.vho" \
+   "$(current_path)/TJPU/sources_1/ip/test_FIFO/test_FIFO.xci" \
+   "$(current_path)/TJPU/sources_1/ip/test_image/test_image.xci" \
+   "$(current_path)/TJPU/sources_1/ip/test_weight/test_weight.xci" \
+   "$(current_path)/TJPU/sources_1/sim/simulation_weight_feature_stream.v" \
+   "$(current_path)/TJPU/sources_1/sim/TJPU_TB.v" \
+   "$(current_path)/TJPU/sources_1/sim/TB_Split.v" \
+   "$(current_path)/TJPU/sources_1/sim/TB_Upsample.v" \
+   "$(current_path)/TJPU/sources_1/sim/TB_Maxpool.v" \
+   "$(current_path)/TJPU/sources_1/sim/simulation_concat.v" \
+   "$(current_path)/TJPU/sources_1/sim/TB_Reshape.v" \
+   "$(current_path)/TJPU/name.tcl" \
   ]
   foreach ifile $files {
     if { ![file isfile $ifile] } {
