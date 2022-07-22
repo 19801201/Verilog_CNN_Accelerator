@@ -1,3 +1,7 @@
+## Description: #  
+  
+This is a single accelerator solution.  
+
 ## Experimental environment: #   
   
 ```Vivado 2020.2```  
